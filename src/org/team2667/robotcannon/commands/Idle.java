@@ -15,7 +15,7 @@ import edu.wpi.first.wpilibj.command.Command;
 import org.team2667.robotcannon.Robot;
 
 /**
- * Idles
+ * Idles aka does nothing
  * @author Haruko
  * @since September 19, 2015
  */

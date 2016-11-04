@@ -19,7 +19,7 @@ import org.team2667.robotcannon.Robot;
  * @author Haruko
  * @since September 19, 2015
  */
-public class  Idle extends Command {
+public class Idle extends Command {
 
     public Idle() {
         // Use requires() here to declare subsystem dependencies

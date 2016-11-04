@@ -163,7 +163,7 @@ Children:
           name: Input Channel (Analog)
           validators: [AnalogInput]
           value: '0'
-      Base: Gyro
+      Base: AnalogGyro
       Name: Gyro
     - Children: []
       Properties:

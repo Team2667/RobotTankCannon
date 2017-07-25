@@ -21,9 +21,9 @@ import edu.wpi.first.wpilibj.command.CommandGroup;
 public class ExtendRetractSolenoid extends CommandGroup {
     
 	// In milliseconds
-	public static final long DELAY = 100L;
+	public static final long DELAY = 1L;
 	
-    public  ExtendRetractSolenoid(Solenoid solenoid) {
+    public  ExtendRetractSolenoid() {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
@@ -41,9 +41,9 @@ public class ExtendRetractSolenoid extends CommandGroup {
         // a CommandGroup containing them would require both the chassis and the
         // arm.
     	
-    	this.addSequential(new ExtendSolenoid(solenoid));
-    	this.addSequential(new Wait(DELAY));
-    	this.addSequential(new RetractSolenoid(solenoid));
+    	this.addSequential(new ExtendSolenoid());
+    	//this.addSequential(new Wait(DELAY));
+    	this.addSequential(new RetractSolenoid());
     	
     }
 }

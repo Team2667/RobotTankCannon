@@ -48,7 +48,8 @@ public class  Wait extends Command {
 
 	// Make this return true when this Command no longer needs to run execute()
 	protected boolean isFinished() {
-		return System.nanoTime() / 1000000L - time >= delay;
+		return true;
+		//return System.nanoTime() / 1000000L - time >= delay;
 	}
 
 	// Called once after isFinished returns true
